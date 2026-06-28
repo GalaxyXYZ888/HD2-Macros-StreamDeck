@@ -1,0 +1,6 @@
+﻿__pycache__/
+*.pyc
+debug_log.txt
+macro_log.txt
+current_loadout.txt
+active_slot_*.png
