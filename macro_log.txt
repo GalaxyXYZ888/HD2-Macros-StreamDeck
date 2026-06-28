@@ -1,0 +1,10 @@
+
+[RUN] Triggered Slot 2
+[TARGET] Found stratagem key mapping signature: HD2-EA
+[SEQUENCE] Loaded directions: ['up', 'right', 'down', 'right']
+[KEY] Sending hardware scancode open -> ctrl
+[KEY] Sending hardware scancode direction: numpad8 (0x48)
+[KEY] Sending hardware scancode direction: numpad6 (0x4d)
+[KEY] Sending hardware scancode direction: numpad5 (0x4c)
+[KEY] Sending hardware scancode direction: numpad6 (0x4d)
+[SUCCESS] Low-level macro execution loop completed.

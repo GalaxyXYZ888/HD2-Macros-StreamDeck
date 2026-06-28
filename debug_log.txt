@@ -1,0 +1,12 @@
+
+Scanning 4K screen layout configuration...
+
+--- INDIVIDUAL SLOT CONFIDENCE LOGS ---
+Slot 1: HD2-MG (Confidence: 1.00) [MATCH]
+Slot 2: unknown (Best guess: HD2-EAT @ 0.47) [REJECTED]
+Slot 3: unknown (Best guess: HD2-BREHAM @ 0.34) [REJECTED]
+Slot 4: unknown (Best guess: HD2-SEAF-ALT @ 0.37) [REJECTED]
+
+[DEBUG] Scan complete. Found 1/4 recognizable stratagems.
+[MISCLICK DETECTED] Low matching signature layout threshold. Aborting profile rewrite to preserve current loadout.
+[FINISHED] One-shot cycle finished execution context.
