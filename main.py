@@ -41,6 +41,14 @@ class Logger(object):
 sys.stdout = Logger()
 sys.stderr = Logger()
 
+# Clear last session's macro log too, since press_slot.py appends to it
+# per-press (separate short-lived processes) rather than owning one
+# long-lived handle like this process does for debug_log.txt.
+try:
+    open("macro_log.txt", "w", encoding="utf-8").close()
+except Exception:
+    pass
+
 
 # --- CONFIGURATION ---
 STRATAGEM_MENU_KEY = "ctrl"  

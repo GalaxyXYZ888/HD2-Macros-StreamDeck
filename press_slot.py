@@ -6,7 +6,7 @@ import ctypes
 # --- MACRO RUNTIME LOGGER ---
 script_dir = os.path.dirname(os.path.abspath(__file__))
 log_path = os.path.join(script_dir, "macro_log.txt")
-sys.stdout = open(log_path, "w", encoding="utf-8", buffering=1)
+sys.stdout = open(log_path, "a", encoding="utf-8", buffering=1)
 sys.stderr = sys.stdout
 
 
