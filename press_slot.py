@@ -111,7 +111,8 @@ STRATAGEMS = {
     "HD2-CRE": ["down", "down", "right", "down", "up", "up"],                    # B/FLAM-80 Cremator
     "HD2-MAXG": ["down", "left", "right", "down", "up", "up"],                   # M-1000 Maxigun
     "HD2-OTF": ["down", "left", "right", "right", "up"],                         # CQC-1 One True Flag
-    
+    "HD2-MEL": ["down", "left", "up", "left", "left", "down"],                   # 40-K Meltagun
+
     # == ORBITAL STRIKES ==
     "HD2-OPS": ["right", "right", "up"],                                         # Orbital Precision Strike
     "HD2-EGB": ["right", "down", "left", "up", "up"],                            # Orbital Gatling Barrage                    
@@ -178,8 +179,10 @@ STRATAGEMS = {
     "HD2-FRV": ["left", "down", "right", "down", "right", "down", "up"],                    # M-102 Fast Recon Vehicle
     "HD2-BAS": ["left", "down", "right", "down", "left", "down", "up", "down", "up"],       # TD-220 Bastion MK XVI 
     "HD2-EX52": ["left", "down", "right", "left", "right", "down", "up"],                   # EXO-55 Breakthrough Exosuit 
-    "HD2-EX51": ["left", "down", "right", "up", "right", "left", "up"],                     # EXO-51 Lumberer Exosuit 
-    
+    "HD2-EX51": ["left", "down", "right", "up", "right", "left", "up"],                     # EXO-51 Lumberer Exosuit
+    "HD2-IFRV": ["left", "down", "right", "left", "down", "up", "up"],                      # M-104 Incinerator FRV
+    "HD2-SFRV": ["left", "down", "right", "left", "down", "up", "up"],                      # M-103 Supply FRV
+
     # == MISSION SPECIFIC ==
     # Ship
     "HD2-Super Destroyer": ["up", "up", "down", "down", "left", "right", "left", "right"],  # Call In Super Destroyer
